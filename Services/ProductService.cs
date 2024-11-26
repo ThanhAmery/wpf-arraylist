@@ -21,7 +21,6 @@ namespace Services
 
         public Product GetProductById(int id) => iProductRepository.GetProductById(id);
         
-
         public List<Product> GetProducts() => iProductRepository.GetProducts();
         
         public bool AddProduct(Product p)
