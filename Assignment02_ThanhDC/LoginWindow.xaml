@@ -165,7 +165,5 @@ Click="btnCancel_Click">
 
         </Border>
 
-
-
     </Grid>
 </Window>

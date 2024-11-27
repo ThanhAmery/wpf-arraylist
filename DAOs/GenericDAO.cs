@@ -12,8 +12,6 @@ namespace DAOs
         private static readonly object _lock = new object();
         private static T instance;
 
-
-
         public static T Instance
         {
             get
