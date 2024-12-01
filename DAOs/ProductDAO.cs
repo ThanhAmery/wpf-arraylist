@@ -18,7 +18,11 @@ namespace DAOs
 
             Product aniseed = new Product(3, "Aniseed Syrup", 2, 23, 10);
 
-            listProducts = new List<Product> { chai, chang, aniseed };
+			Product chef = new Product(4, "Chef Anton's Cajun Seasoning", 2, 34, 22);
+
+			Product chefMix = new Product(5, "Chef Anton's Gumbo Mix", 2, 45, 34);
+
+			listProducts = new List<Product> { chai, chang, aniseed };
 
         }
 
