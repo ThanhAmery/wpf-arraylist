@@ -22,6 +22,10 @@ namespace DAOs
 
 			Product chefMix = new Product(5, "Chef Anton's Gumbo Mix", 2, 45, 34);
 
+			Product grandma = new Product(6, "Grandma's Boysenberry Spread", 2, 21, 25);
+
+			//Product uncle = new Product(7, "Uncle Bob's Organic Dried Pears", 7, 22, 30);
+
 			listProducts = new List<Product> { chai, chang, aniseed };
 
         }
