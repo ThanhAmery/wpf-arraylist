@@ -24,7 +24,11 @@ namespace DAOs
 
 			Product grandma = new Product(6, "Grandma's Boysenberry Spread", 2, 21, 25);
 
-			//Product uncle = new Product(7, "Uncle Bob's Organic Dried Pears", 7, 22, 30);
+			Product uncle = new Product(7, "Uncle Bob's Organic Dried Pears", 7, 22, 30);
+
+			//Product mishi = new Product(8, "Mishi Kobe Niku", 6, 97, 29);
+
+			//Product ikura = new Product(9, "Ikura", 8, 31, 31);
 
 			listProducts = new List<Product> { chai, chang, aniseed };
 
